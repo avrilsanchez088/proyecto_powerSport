@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,700;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tituloPrincipal{
+    font-size: 2.5rem;
+    color: #4e90cd;
+    font-weight: 700;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.titulosPaginas{
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+
+.Navegacion .ListaNav .ListaItem a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    text-align: center;
+   
+}
+
+.Navegacion .ListaNav .ListaItem{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    float: left;
+    
+}
+
+.header_sticky{
+    background-color: white;
+    color: black;
+    position: sticky;
+    top: 10px;
+    z-index: 10;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    display: block;
+    
+}
+ /* aca hice que los elementos de la pagina no se me subieran*/
+.clearfix{
+    clear: both;
+}
+.form{
+    display: block;
+}
+
+.footer{
+   color: white;
+   font-size: 11px;
+   background-color: #0d4070;
+   text-align: center;
+   
+}
+
+.Productos{
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 200;
+    font-size: 12px
+
+}
+
+.Productos{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+iframe{
+    display: block;
+    text-align: center;
+}
+
+.direc{
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 15px
+}
