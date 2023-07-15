@@ -4,83 +4,101 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <title>Tienda | Power Sport</title>
         <script src="https://kit.fontawesome.com/1980fcea41.js" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="../Favicon.png" type="image/png">
+        <link rel="icon" type="image/png" href="../assets/img/Favicon.png">
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
-        <header>
-            <a href="#"></a><img src="../assets/img/Logo PS.png" alt="Logo Power Sport" width="390" height="90">
-           <nav class="Navegacion">
-               <ul class="ListaNav">
-                   <li class="ListaItem"><a href="../index.html">Inicio</a></li>
-                   <li class="ListaItem"><a href="./sobrenosotros.html">Sobre nosotros</a></li>
-                   <li class="ListaItem"><a href="#">Tienda</a></li>
-                    <li class="ListaItem"><a href="./ubicacion.html">Ubicación</a></li>
-                   <li class="ListaItem"><a href="./contacto.html">Contacto</a></li>
-               </ul>
-           </nav>
-           <div class="clearfix"></div>
+        <header class="header">
+            <div class="card-header text-center bannerPequeño">
+                Envío GRATIS a partir de $3.500
+            </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                       <a class="navbar-brand" href="#"></a>
+                       <img class="logo" src="../assets/img/Logo PS.png" alt="Logo Power Sport">
+                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-end">
+                            <li class="nav-item">
+                              <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="../pages/sobrenosotros.html">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active" href="#">Tienda</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                </nav>
         </header>
 
         <main>
             <h1 class="titulosPaginas">Productos</h1>
-            <section>
-                <div class="Productos">
-                <img src="../assets/img/POWERDRINK.jpg" alt="Power drink sabor naranja 500gr">
-                    <h2>Power Drink Naranja 500grs</h2>
-                    <p>$2.200</p>
-                    <a class="agregaralcarrito" href="">Agregar al carrito</a>
-                    
-                    
-                </div>
-                <div class="Productos">
-                    <img src="../assets/img/Creatina cibeles.jpg" alt="Creatina cibeles">
-                    <h2>Creatina Cibeles 350grs</h2>
-                    <p>$1.800</p>
-                    <a class="agregaralcarrito" href="">Agregar al carrito</a>
-                    
-                </div>
-                <div class="Productos">
-                    <img src="../assets/img/WHEYPROTEIN.ENA.930gr.jpg" alt="Whey Protein Ena Truemade">
-                    <h2>WHEY PROTEIN Ena Truemade 930grs </h2>
-                    <p>$2.700</p>
-                    <a class="agregaralcarrito" href="">Agregar al carrito</a>
-                </div>
-                <div class="Productos">
-                    <img src="../assets/img/VEGANPROTEIN.jpg" alt="Vegan Protein Vitalabs">
-                    <h2>Proteina Vegana Vitalabs 907grs</h2>
-                    <p>$3.900</p>
-                    <a class="agregaralcarrito" href="">Agregar al carrito</a>
-                    
-                </div>
-                <div class="Productos">
-                    <img src="../assets/img/WHEY.CHOCO.2kg.jpg" alt="Whey Protein USN sabor chocolate 2kg">
-                    <h2>WHEY PROTEIN USN Chocolate 2kg</h2>
-                    <p>$7.200</p>
-                    <a class="agregaralcarrito" href="">Agregar al carrito</a>
-                    
-                </div>
-                <div class="Productos">
-                    <img src="../assets/img/WHEY.VAINI.2kg.jpg" alt="Whey Protein USN sabor vainilla 2kg">
-                    <h2>WHEY PROTEIN USN Vainilla 2kg</h2>
-                    <p>$7.200</p>
-                    <a class="agregaralcarrito" href="">Agregar al carrito</a>
-                    
-                </div>
-                <div class="Productos">
-                    <img src="../assets/img/GLUTAMINA.USN.jpg" alt="Glutamina USN">
-                    <h2>Glutamina USN</h2>
-                    <p>$2.200</p>
-                    <a class="agregaralcarrito" href="">Agregar al carrito</a>
-                </div>
-                <div class="Productos">
-                    <img src="../assets/img/PUREBCAA.USN.jpg" alt="Pure BCAA USN">
-                    <h2>Pure BCAA USN</h2>
-                    <p>$3.100</p>
-                    <a class="agregaralcarrito" href="">Agregar al carrito</a>
-                </div>
+            <section class="prod">
+             <div class="PadreProd">
+                   <div class="Productos">
+                     <img src="../assets/img/POWERDRINK.jpg" alt="Power drink sabor naranja 500gr">
+                      <h2>Power Drink Naranja 500grs</h2>                      
+                      <p class="precios"> $2.200</p>
+                      <a class="agregaralcarrito" href="">Agregar al carrito</a>
+                    </div>
+                   <div class="Productos">
+                     <img src="../assets/img/Creatina cibeles.jpg" alt="Creatina cibeles">
+                     <h2>Creatina Cibeles 350grs</h2>                     
+                     <p class="precios">$1.800</p>       
+                     <a class="agregaralcarrito" href="">Agregar al carrito</a>             
+                    </div>
+                   <div class="Productos">
+                      <img src="../assets/img/WHEYPROTEIN.ENA.930gr.jpg" alt="Whey Protein Ena Truemade">
+                      <h2>WHEY PROTEIN Ena Truemade 930grs </h2>                      
+                      <p class="precios">$2.700</p>
+                      <a class="agregaralcarrito" href="">Agregar al carrito</a>
+                    </div>
+                    <div class="Productos">
+                      <img src="../assets/img/VEGANPROTEIN.jpg" alt="Vegan Protein Vitalabs">
+                      <h2>Proteina Vegana Vitalabs 907grs</h2>                      
+                      <p class="precios">$3.900</p>        
+                      <a class="agregaralcarrito" href="">Agregar al carrito</a>            
+                    </div>
+                    <div class="Productos">
+                     <img src="../assets/img/WHEY.CHOCO.2kg.jpg" alt="Whey Protein USN sabor chocolate 2kg">                    
+                     <h2>WHEY PROTEIN USN Chocolate 2kg</h2>
+                     <p class="precios">$7.200</p>
+                     <a class="agregaralcarrito" href="">Agregar al carrito</a>                    
+                    </div>
+                    <div class="Productos">
+                      <img src="../assets/img/WHEY.VAINI.2kg.jpg" alt="Whey Protein USN sabor vainilla 2kg">
+                      <h2>WHEY PROTEIN USN Vainilla 2kg</h2>
+                      <p class="precios" >$7.200</p>
+                      <a class="agregaralcarrito" href="">Agregar al carrito</a>
+                    </div>
+
+                    <div class="Productos">
+                      <img src="../assets/img/GLUTAMINA.USN.jpg" alt="Glutamina USN">
+                      <h2>Glutamina USN</h2>
+                      <p class="precios">$2.200</p>
+                      <a class="agregaralcarrito" href="">Agregar al carrito</a>
+                    </div>
+                   <div class="Productos">
+                      <img src="../assets/img/PUREBCAA.USN.jpg" alt="Pure BCAA USN">
+                      <h2>Pure BCAA USN</h2>
+                      <p class="precios">$3.100</p>
+                      <a class="agregaralcarrito" href="">Agregar al carrito</a>
+                    </div>
+               </div>   
 
 
             </section>
@@ -106,5 +124,6 @@
                 <p>Todos los derechos reservados.</p>
             </div> 
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

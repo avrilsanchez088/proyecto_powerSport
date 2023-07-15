@@ -4,37 +4,118 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <title>Contacto | Power Sport</title>
         <script src="https://kit.fontawesome.com/1980fcea41.js" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="../Favicon.png" type="image/png">
+        <link rel="icon" type="image/png" href="../assets/img/Favicon.png">
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
-    <body>
-        <header>
-            <a href="../index.html"></a><img src="../assets/img/Logo PS.png" alt="Logo Power Sport" width="390" height="90">
-           <nav class="Navegacion">
-               <ul class="ListaNav">
-                   <li class="ListaItem"><a href="../index.html">Inicio</a></li>
-                   <li class="ListaItem"><a href="./sobrenosotros.html">Sobre nosotros</a></li>
-                   <li class="ListaItem"><a href="./tienda.html">Tienda</a></li>
-                   <li class="ListaItem"><a href="./ubicacion.html">Ubicación</a></li>
-                   <li class="ListaItem"><a href="#">Contacto</a></li>
-               </ul>
-           </nav>
+    <body class="bodyContacto">
+        <header class="header">
+            <div class="card-header text-center bannerPequeño">
+                Envío GRATIS a partir de $3.500
+              </div>
+                   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <div class="container-fluid">
+                       <a class="navbar-brand" href="#"></a>
+                       <img class="logo" src="../assets/img/Logo PS.png" alt="Logo Power Sport">
+                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-end">
+                            <li class="nav-item">
+                              <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="../pages/sobrenosotros.html">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="../pages/tienda.html">Tienda</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active" href="#">Contacto</a>
+                            </li>
+                          </ul>
+                        </div>
+                     </div>
+                   </nav>
+            <!-- 
+            <div class="padreNavHeader">
+                <div class="logo">
+                    <a href="#"><img src="../assets/img/Logo PS.png" alt="Logo Power Sport"></a>
+                </div>
+                <nav class="Navegacion">
+                    <ul class="ListaNav">
+                        <li class="ListaItem"><a href="../index.html">Inicio</a></li>
+                        <li class="ListaItem"><a href="../pages/sobrenosotros.html">Sobre nosotros</a></li>
+                        <li class="ListaItem"><a href="../pages/tienda.html">Tienda</a></li>
+                        <li class="ListaItem"><a href="../pages/ubicacion.html">Ubicación</a></li>
+                        <li class="ListaItem"><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>-->
            <div class="clearfix"></div>
         </header>
 
         <main>
             <h1 class="titulosPaginas">Contacto</h1>
-            <form>
-                <input class="form"  type="text" placeholder="Nombre">
-                <input class="form" type="text" placeholder="Apellido">
-                <input class="form" type="email" placeholder="Correo electrónico">
-                <textarea class="form" name="" id="" cols="20" rows="5" placeholder="Mensaje"></textarea>
-                <input class="form" type="reset">
-                <input class="form" type="submit">
+            <div class="row contactForm">
+                <div class="col-md-7 shadow rounded p-5 cajaContacto">
+                    <div class="row">
+                        <div class="col mb-3">
+                            <label class="form-label"">Nombre</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col mb-3">
+                            <label class="form-label"">Apellido</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Teléfono</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mensaje</label>
+                        <textarea name="" class="form-control" rows="3"></textarea>
+                    </div>
 
-            </form>
+                </div>
+            </div>
+            <!-- 
+            <div class="card">
+                <div class="form pull-left full-width">
+                    <form class="contact_form">
+                        <div class="form-group">
+                            <label for="nombre" class="form-label">NOMBRE</label>
+                            <input class="form-control"  type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">EMAIL</label>
+                            <input class="form-control"  type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono" class="form-label">TELÉFONO</label> 
+                            <input class="form-control"  type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje" class="form-label">MENSAJE</label> 
+                            <textarea name="mensaje" id="mensaje" cols="20" rows="5" class="full-width border-box m-none"></textarea>
+                        </div>
+                        
+        
+                    </form>
+                </div>
+            </div> -->
+          
         </main>
 
         <footer class="footer">
@@ -57,5 +138,6 @@
                 <p>Todos los derechos reservados.</p>
             </div>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
