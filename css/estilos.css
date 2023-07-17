@@ -42,8 +42,33 @@
    font-size: 1rem;
    font-family: 'Exo 2', sans-serif;
    font-weight: 500;
+
 }
+.card-body-index{
+    background-image: url(../assets/img/img-bann-blue.jpg);
+    color: white;
+    height: 50vh;
+    width: 100%;
+}
+
 */
+.contenedorBann{
+    position: relative;
+    display: inline-block;    
+}
+
+.fs-1{
+    position: absolute;
+    top: 50%;
+    color: rgb(255, 255, 255);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    margin: 10px;
+
+}
+.img{
+    filter: brightness(0.60);
+}
 
 
 .navbar .nav-item .nav-link{
@@ -78,7 +103,15 @@ h2{
     padding-bottom: 30px;
 
 }
-
+.blue_line{
+    height: 19px;
+    width: 4px;
+    flex: 0 0 4px;
+    background: #004D97;
+    display: inline-block;
+    margin: -1px 5px 0 0;
+    vertical-align: middle;
+}
 .bannerPequeño{
     font-size: 12px;
     font-family: 'Exo 2', sans-serif;
@@ -91,18 +124,20 @@ h2{
 .card{
     border-radius: 0rem;
 }
+.card-index-text{
+    font-weight: 700;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+.card-index-img{
+    background-color: rgba(255, 255, 255, 0.593);
+}
+
 .card-img{
     border-radius: 0rem;
 }
-.card-title{
-    font-size: 40px;
-}
-.card-body{
-    background-image: url(../assets/img/img-bann-blue.jpg);
-    color: white;
-    height: 50vh;
-    width: 100%;
-}
+
+
 .contactForm{
     align-items: center;
     justify-content: center;
@@ -114,16 +149,7 @@ h2{
 .cajaContacto{
     background-color: white;
 }
-.botonbanner{
-    background-color:rgba(255, 255, 255, 0.588);
-    color: #2c69a3;
-    text-decoration: none;
-    padding: 6px 10px;
-    border-radius: 30px;
-    border: 1.5px solid transparent;
-    font-weight: bold;
-    font-family: 'Exo 2', sans-serif;
-} 
+
 
 .Anuncio{
     text-align: center;
@@ -147,9 +173,7 @@ h2{
     justify-content: center;
     align-items: center;
 }
-.card-index{
-    
-}
+
 .tituloPrincipal{
     font-size: 2.5rem;
     color: #2c69a3;
@@ -265,5 +289,12 @@ iframe{
     font-weight: 400;
     font-size: 15px
 }
+.precios{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: black;
 
+
+}
+/*SOBRE NOSOTROS*/
 
