@@ -68,8 +68,11 @@
 }
 .img{
     filter: brightness(0.60);
+    width: 100%;
 }
-
+.imgbanner2in{
+    object-fit: cover;
+}
 
 .navbar .nav-item .nav-link{
     color: #2c69a3;
@@ -80,7 +83,7 @@
 }
 
 .body{
-    background-color: rgba(233, 222, 222, 0.236);
+    background-color: rgba(144, 140, 140, 0.229);
 }
 
 .PadreAnuncio{
@@ -238,7 +241,7 @@ h2{
 .form{
     display: block;
 }
-
+/*
 .footer{
     display: block;
     height: 30vh;
@@ -248,7 +251,7 @@ h2{
    text-align: center;
    padding-bottom: 0;
    
-}
+}*/
 .redes{
     font-size: 25px;
 } 
@@ -297,4 +300,139 @@ iframe{
 
 }
 /*SOBRE NOSOTROS*/
+.sectionSN{
+    background-image: url(../assets/img/group-people-stacking-hands.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+ 
+}
+.section{
+    height: 55vh;
+    
+}
+ .section .container{
+    display: flex;
+    justify-content: center;
+}
+.tituloSN{
+    color: #ffffff;
+    font-size: 3rem;
+    padding-top: 150px;
+}
 
+.tituloNuM{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+
+}
+.textoSN{
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+.row{
+    padding-top: 10px;
+    margin: 30px;
+}
+
+
+/* INDEX */
+
+.containerEnviosetc{
+    width: 100%;    
+}
+.text-area{
+    font-family: 'Exo 2', sans-serif;;
+}
+
+
+.indexEnvioetc .text-area{
+    padding-left: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.indexEnvioetc h4{
+    font-size: 15px;
+    font-family: 'Exo 2', sans-serif;;
+}
+.indexEnvioetc p{
+    font-size: 11px;
+    font-family: 'Exo 2', sans-serif;;
+}
+.indexEnvioetc .col-lg-4{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: inline-flex;
+    justify-content: center;   
+}
+
+.indexEnvioetc .col-lg-4{
+    border-left: 1px solid;
+    border-color: white;
+}
+.contBannUSN{
+    padding-bottom: 30px;
+}
+/*FOOTER*/
+.Footer{
+    position: absolute;    
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;   
+}
+.logoFooter{    
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    display: flex;
+    height: 40px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.columnContainerFoot{
+    width: 90%;
+    display: flex;
+    margin: 60px auto;
+    height: auto;
+    justify-content: center;  
+    
+}
+.itemColumnFoot{
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family:'Exo 2', sans-serif ;
+}
+.columnFoot{
+    display: ;
+    float: left;
+    padding-left: 50px;
+    text-align: center;
+    justify-content: center;
+
+}
+.columnHeadFoot{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+/* UBICACIÓN */
+.direc{
+    color: rgb(17, 38, 125);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+iframe{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
