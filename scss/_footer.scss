@@ -1,0 +1,48 @@
+
+.Footer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    .logoFooter {
+        margin: auto;
+        justify-content: center;
+        width: 90%;
+        display: flex;
+        height: 40px;
+        border-bottom: 1px solid black;
+        margin-top: 20px;
+    }
+    .columnContainerFoot {
+        width: 90%;
+        display: flex;
+        margin: 60px auto;
+        height: auto;
+        justify-content: center;
+        .columnFoot {
+            float: left;
+            padding-left: 50px;
+            text-align: center;
+            justify-content: center;
+            .columnHeadFoot {
+                font-size: 17px;
+                font-weight: bold;
+                font-family: $tipografia-principal;
+                text-align: left;
+            }
+            a{
+                .itemColumnFoot {
+                    color: black;
+                    text-align: left;
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-family: $tipografia-principal; 
+                }
+
+            }
+        
+        }
+        
+    
+    }
+}

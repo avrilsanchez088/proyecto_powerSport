@@ -1,0 +1,172 @@
+
+.main {
+    .sectionMain {
+        .tituloPrincipal {
+            font-size: 2.5rem;
+            color: #2c69a3;
+            font-weight: 700;
+            font-family: $tipografia-principal;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .tituloProdIndex {
+            text-align: center;
+            font-family: $tipografia-principal;
+            font-weight: 600;
+            font-size: 1rem;
+            color: #4e90cd;
+        }
+
+        .row {
+            padding-top: 10px;
+            margin: 30px;       
+        }
+
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0px;
+
+            .card-index-text {
+                font-weight: 700;
+                font-family: $tipografia-principal;
+                .blue_line {
+                    height: 19px;
+                    width: 4px;
+                    flex: 0 0 4px;
+                    background: $color-principal;
+                    display: inline-block;
+                    margin: -1px 5px 0 0;
+                    vertical-align: middle;
+                }
+                
+            }
+        }
+        .card-index-img {
+            background-color: $background-transparente;
+        }
+    }
+
+    .contBannUSN {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        .imgbanner2in {
+            object-fit: cover;
+        }
+    }
+
+    .indexEnvioetc {
+        .text-area {
+            padding-left: 10px;
+            text-align: center;
+            justify-content: center;
+            padding-right: 20px;
+        }
+
+        h4 {
+            font-size: 17px;
+            font-family: $tipografia-principal;
+        }
+
+        p {
+            font-size: 13px;
+            font-family: $tipografia-principal;
+        }
+
+        .columnaEnvioetc {
+            padding-top: 14px;
+            padding-bottom: 14px;
+            display: inline-flex;
+            justify-content: center;
+            border-left: 1px solid;
+            border-color: white;
+        }
+
+    }
+}
+
+.mainContacto{
+    .contactForm {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;   
+        .cajaContacto {
+            background-color: white;
+            align-items: center;
+            .parrafoContacto{
+                font-family: $tipografia-principal;
+                font-weight: 400;
+            }
+            .row{
+                .form-label {
+                    font-size: 14px;
+                    font-family: $tipografia-principal;
+                    font-weight: 300;
+                }
+                .form-control {
+                    border-radius: 0rem;
+                }
+
+            }
+        } 
+    }
+
+
+}
+.mainTienda{
+    .row{
+        .card{
+            .card-index-text{
+                font-family: $tipografia-principal;
+            }
+        }
+
+    }
+}
+.mainUbicaion{
+    .direc{        
+        color: black;
+        font-family: $tipografia-principal;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+    }
+    iframe{
+        display: block;
+        text-align: center;        
+    }
+}
+.mainSN{
+    .row{
+        .tituloNuM {
+            font-size: 30px;
+            font-weight: 100;
+            letter-spacing: 1.5px;
+            margin-left: 20px;
+        
+        }
+        .textoSN {
+            font-size: 20px;
+            font-family: $tipografia-principal;
+            margin-left: 20px;
+            
+        }
+        .contImgSN{
+            .imgSN{
+                padding-top: 20px;
+                padding-bottom: 30px;
+            }
+
+        }
+        .textoSNgr1{
+            padding-top: 130px;
+            .textoSN1{
+                font-size: 20px;
+                font-family: $tipografia-principal;        
+            }
+        }
+
+    }
+}

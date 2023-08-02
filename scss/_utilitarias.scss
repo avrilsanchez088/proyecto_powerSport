@@ -1,0 +1,53 @@
+
+
+h1 {
+    padding-top: 70px;
+    font-family: $tipografia-principal;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: $tipografia-principal;
+    font-weight: bold;
+    color: #4e90cd;
+    padding-bottom: 30px;
+
+}
+
+.titulosPaginas {
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+    font-family: $tipografia-principal;
+    text-align: center;
+    color: $color-principal;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.header_sticky {
+    background-color: white;
+    color: black;
+    position: sticky;
+    top: 10px;
+    z-index: 10;
+}
+body{
+    background-color: $background-transparente;    
+}
+.bodyContacto{
+    background-image: url(../assets/img/PS\ Background\ 3.jpg);
+}
+a {
+    text-decoration: none;
+}
+
+/* aca hice que los elementos de la pagina no se me subieran*/
+.clearfix {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}

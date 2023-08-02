@@ -1,0 +1,48 @@
+
+.header {
+    .bannerPequeño {
+        font-size: 12px;
+        font-family: $tipografia-principal;
+        background-color: $color-principal;
+        color: white;
+    }
+    .navbar{
+        .logo{
+            width: 300px;
+            display: flex;
+        }
+    }
+    
+    .navbar{
+        .div-nav{
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            color: #2c69a3;
+                            font-family: $tipografia-principal;
+                            font-weight: 500;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .contenedorBann {
+        position: relative;
+        .img {
+            filter: brightness(0.60);
+            width: 100%;
+        }
+        .fs-1{
+            position: absolute;
+            top: 50%;
+            color: rgb(255, 255, 255);
+            font-family: $tipografia-principal;
+            font-weight: 700;
+            margin: 10px;
+        }
+    }
+}
