@@ -53,9 +53,16 @@ body {
   border: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .columnContainerFoot {
     flex-direction: column;
+  }
+  .imgtienda {
+    height: 250px;
+    object-fit: cover;
+  }
+  h1 {
+    font-size: 20px;
   }
 }
 .imgbann2 {
