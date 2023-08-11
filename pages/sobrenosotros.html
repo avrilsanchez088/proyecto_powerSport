@@ -12,12 +12,13 @@
   <script src="https://kit.fontawesome.com/1980fcea41.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" href="../assets/img/Favicon.png">
   <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body class="body">
   <header class="header">
     <div class="card-header text-center bannerPequeño">
-      Envío GRATIS a partir de $3.500
+      <p>Envío GRATIS a partir de $3.500</p>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class=" div-nav container-fluid">
@@ -53,16 +54,16 @@
 
 
     <div class="contenedorBann">
-      <img class="img-fluid img" src="../assets/img/grupo-chocando-puños.jpg" alt="Grpo de trabajo chocando puños">
-      <div class="fs-1 text-wrap" style="width: 30rem;"> SOBRE NOSOTROS </div>
+      <img class="img-fluid img" src="../assets/img/grupo.jpg" alt="Grpo de trabajo chocando puños">
+      <div class="fs-1 text-wrap"> <p>SOBRE NOSOTROS </p> </div>
     </div>
   </header>
   <main class="container-fluid mainSN">
     <div>
       <div>
         <div class="row">
-          <div class="col-md-6">
-            <h2 class="tituloNuM"> NUESTRA MISIÓN </h2>
+          <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"  class="col-md-6">
+            <h2 class=" pt-3 tituloNuM"> NUESTRA MISIÓN </h2>
             <p class="textoSN"> Nuestra misión es proporcionarte productos que marquen la diferencia en tu entrenamiento
               y te impulsen hacia un estilo de vida activo y equilibrado. Trabajamos con las marcas más reconocidas y
               confiables del mercado para garantizar que encuentres los suplementos adecuados para tus necesidades
@@ -76,7 +77,7 @@
               preguntas o resolver cualquier problema que puedas tener.
             </p>
           </div>
-          <div class="col-md-6 contImgSN">
+          <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"  class="col-md-6 contImgSN">
             <img class="img-fluid imgSN" src="../assets/img/young-team-working-together-use-laptop.jpg" alt="">
           </div>
         </div>
@@ -85,10 +86,10 @@
     <div>
       <div>
         <div class="row">
-          <div class="col-md-6 contImgSN">
+          <div data-aos="fade-right" data-aos-duration="1500" class="col-md-6 contImgSN">
             <img class="img-fluid imgSN" src="../assets/img/edificios.jpeg" alt="">
           </div>
-          <div class="col-md-6 textoSNgr1">
+          <div data-aos="fade-left" data-aos-duration="1500" class="col-md-6 textoSNgr1">
             <p class="textoSN1"> En Power Sport, nos esforzamos por ser más que una tienda de suplementos deportivos.
               Queremos ser una fuente de inspiración y motivación para que alcances tus metas, superes tus límites y te
               conviertas en la mejor versión de ti mismo/a. Creemos en el poder transformador del deporte y en su
@@ -111,7 +112,7 @@
   </main>
   <footer class="Footer text-align-center">
     <div class="logoFooter">
-      <img src="../assets/img/Logo PS.png" alt="Logo Power Sport">
+      <img src="../assets/img/Logo PS.png" alt="">
     </div>
     <div class="columnContainerFoot justify-content-space-between">
       <div class="columnFoot">
@@ -120,29 +121,46 @@
           <div class="itemColumnFoot"> (+598) 091 234 567</div>
         </a>
         <a href="">
-          <div class="itemColumnFoot"> contacto@powersport.com.uy </div>
+          <div class="itemColumnFoot">
+            <p>contacto@powersport.com.uy </p>
+          </div>
         </a>
       </div>
       <div class="columnFoot">
         <a href="../index.html">
-          <div class="itemColumnFoot"> Inicio </div>
+          <div class="itemColumnFoot">
+            <p>Inicio</p>
+          </div>
         </a>
         <a href="../pages/tienda.html">
-          <div class="itemColumnFoot"> Productos </div>
+          <div class="itemColumnFoot">
+            <p>Productos</p>
+          </div>
         </a>
         <a href="../pages/ubicacion.html">
-          <div class="itemColumnFoot"> Ubicación </div>
+          <div class="itemColumnFoot">
+            <p>Ubicación</p>
+          </div>
         </a>
       </div>
       <div class="columnFoot">
         <a href="#">
-          <div class="itemColumnFoot"> Sobre nosotros </div>
+          <div class="itemColumnFoot">
+            <p>Sobre Nosotros</p>
+          </div>
         </a>
         <a href="../pages/contacto.html">
-          <div class="itemColumnFoot"> Contactános </div>
+          <div class="itemColumnFoot">
+            <p>Contactános</p>
+          </div>
         </a>
       </div>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 

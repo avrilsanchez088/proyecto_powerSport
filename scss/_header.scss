@@ -5,6 +5,7 @@
         font-family: $tipografia-principal;
         background-color: $color-principal;
         color: white;
+        height: 30px;
     }
     .navbar{
         .logo{
@@ -13,17 +14,20 @@
         }
     }
     
+   
     .navbar{
         .div-nav{
             .navbar-collapse{
                 .navbar-nav{
                     .nav-item{
-                        .nav-link{
-                            color: #2c69a3;
-                            font-family: $tipografia-principal;
-                            font-weight: 500;
-                            font-size: 1.2rem;
+                        &{ 
+                            @include enlaces-nav($color-titulos-links,$tipografia-principal)
                         }
+                        &:link{
+                            color: rgb(0, 0, 0);
+                        }
+                        
+
                     }
                 }
             }

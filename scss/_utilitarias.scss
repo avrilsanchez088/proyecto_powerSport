@@ -16,14 +16,7 @@ h2 {
 }
 
 .titulosPaginas {
-    font-size: 2rem;
-    color: black;
-    font-weight: 600;
-    font-family: $tipografia-principal;
-    text-align: center;
-    color: $color-principal;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    @include titulos-pag($tipografia-principal,$text-align,$color-principal)
 }
 
 .header_sticky {
@@ -36,18 +29,33 @@ h2 {
 body{
     background-color: $background-transparente;    
 }
-.bodyContacto{
-    background-image: url(../assets/img/PS\ Background\ 3.jpg);
+.body404{
+    background-color: white;
 }
+.mapas{
+    width: 100%;
+    height: 250px;
+    border: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .columnContainerFoot{
+        flex-direction: column;
+    }
+}
+
+.imgbann2{
+    width: 100%;
+}
+
+
 a {
     text-decoration: none;
 }
+
 
 /* aca hice que los elementos de la pagina no se me subieran*/
 .clearfix {
     clear: both;
 }
 
-a {
-    text-decoration: none;
-}

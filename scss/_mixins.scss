@@ -1,0 +1,18 @@
+
+@mixin enlaces-nav($color-titulos-links,$tipografia-principal){
+    color:$color-titulos-links;
+    font-family: $tipografia-principal;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+@mixin titulos-pag($tipografia-principal,$text-align,$color-principal){
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+    font-family: $tipografia-principal;
+    text-align: $text-align;
+    color: $color-principal;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

@@ -43,8 +43,23 @@ body {
   background-color: rgba(235, 233, 233, 0.593);
 }
 
-.bodyContacto {
-  background-image: url(../assets/img/PS\ Background\ 3.jpg);
+.body404 {
+  background-color: white;
+}
+
+.mapas {
+  width: 100%;
+  height: 250px;
+  border: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .columnContainerFoot {
+    flex-direction: column;
+  }
+}
+.imgbann2 {
+  width: 100%;
 }
 
 a {
@@ -56,25 +71,25 @@ a {
   clear: both;
 }
 
-a {
-  text-decoration: none;
-}
-
 .header .bannerPequeño {
   font-size: 12px;
   font-family: "Exo 2", sans-serif;
   background-color: #0d4070;
   color: white;
+  height: 30px;
 }
 .header .navbar .logo {
   width: 300px;
   display: flex;
 }
-.header .navbar .div-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+.header .navbar .div-nav .navbar-collapse .navbar-nav .nav-item {
   color: #2c69a3;
   font-family: "Exo 2", sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
+}
+.header .navbar .div-nav .navbar-collapse .navbar-nav .nav-item:link {
+  color: rgb(0, 0, 0);
 }
 .header .contenedorBann {
   position: relative;
@@ -94,7 +109,7 @@ a {
 
 .main .sectionMain .tituloPrincipal {
   font-size: 2.5rem;
-  color: #2c69a3;
+  color: #0d4070;
   font-weight: 700;
   font-family: "Exo 2", sans-serif;
   padding-top: 20px;
@@ -191,6 +206,7 @@ a {
 }
 
 .mainUbicaion .direc {
+  display: flex;
   color: black;
   font-family: "Exo 2", sans-serif;
   font-weight: 400;
@@ -223,6 +239,15 @@ a {
 .mainSN .row .textoSNgr1 .textoSN1 {
   font-size: 20px;
   font-family: "Exo 2", sans-serif;
+}
+
+.main404 .container404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main404 .container404 .texto404 {
+  font-size: 20px;
 }
 
 .Footer {
